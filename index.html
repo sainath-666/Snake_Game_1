@@ -5,19 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Snake Game</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta name="description" content="A modern, responsive Snake Game created by Sainath Reddy">
 </head>
 <body>
+  <h1 class="game-title">Snake Game</h1>
+  
   <div id="gameWrapper">
     <div id="scoreBoard">
       <span id="scoreText">Score: <span id="score">0</span></span>
       <span id="highScoreText">High Score: <span id="highScore">0</span></span>
     </div>
+    
     <canvas id="gameCanvas" width="600" height="600"></canvas>
-    <button id="restartBtn">Restart</button>
+    
+    <button id="restartBtn" class="btn">Restart Game</button>
+    
+    <!-- Mobile Controls -->
+    <div id="mobileControls">
+      <div class="controls-row">
+        <div class="control-btn" id="upBtn"><i class="fas fa-arrow-up"></i></div>
+      </div>
+      <div class="controls-row">
+        <div class="control-btn" id="leftBtn"><i class="fas fa-arrow-left"></i></div>
+        <div class="control-btn" id="downBtn"><i class="fas fa-arrow-down"></i></div>
+        <div class="control-btn" id="rightBtn"><i class="fas fa-arrow-right"></i></div>
+      </div>
+    </div>
   </div>
+  
   <footer>
-    Developed by <a href="https://www.linkedin.com/in/sainath666" target="_blank" id="developerLink">SainathReddy</a>
+    <div class="social-links">
+      <a href="https://github.com/sainath-666" target="_blank" rel="noopener" class="social-link"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/sainath666" target="_blank" rel="noopener" class="social-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </div>
+    <div class="footer-credit">
+      <p>Made with ❤️ by Your Sainathreddy</p>
+    </div>
   </footer>
+  
   <script src="script.js"></script>
 </body>
 </html>
