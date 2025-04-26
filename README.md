@@ -2,7 +2,7 @@
 
 <div align="center">
   <img src="preview.png" alt="Snake Game Preview" width="600px">
-  <h2><a href="https://sainath-666.github.io/Snake-Game/">Play the Game</a></h2>
+  <h2><a href="https://sainath-666.github.io/Snake_Game_1/">Play the Game</a></h2>
 </div>
 
 ## 📝 Description
